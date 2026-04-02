@@ -4,7 +4,7 @@ variable "prefix" {
 
 variable "region" {
   description = "The region where the resources are created."
-  default     = "ap-northeast-2"
+  default     = "us-east-1"
 }
 
 variable "address_space" {
@@ -19,7 +19,7 @@ variable "subnet_prefix" {
 
 variable "instance_type" {
   description = "Specifies the AWS instance type."
-  default     = "t3.micro"
+  default     = "t2.small"
 }
 
 variable "height" {
